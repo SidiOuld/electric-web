@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Electric</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active logo" id="float-left">Electric</a>
+    <a href="#soc" class="float-right"><i class="fab fa-twitter"></i><i class="fab fa-facebook-f"></i><i
+        class="fab fa-instagram"></i><i class="fab fa-linkedin-in"></i></a>
+    <a href="#contact-us" class="float-right">Contact Us</a>
+    <a href="#top-3-evs" class="float-right">Top 3 Evs</a>
+    <a href="#about-us" class="float-right">About Us</a>
+    <a href="javascript:void(0);" class="icon" onclick="resNavBar()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <!-- ------------------------------- -->
+
+  <main>
+    <div class="about-container">
+    </div>
+  </main>
+  <main>
+    <div class="main-pa" id="about-us">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur.
+      </p>
+    </div>
+  </main>
+  <main>
+    <div class="main-pa2">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur.
+      </p>
+    </div>
+  </main>
+  <main class="platforms" id="top-3-evs">
+    <h1 class="hd">Top 3 EV Makers</h1>
+    <div class="container-grid">
+      <div class="b1"></div>
+      <div class="b2"></div>
+      <div class="b3"></div>
+      <div class="b4">
+        <hr />
+        <h2>Tesla</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+        </p>
+        <a href="#">Learn more...</a>
+      </div>
+      <div class="b5">
+        <hr />
+        <h2>Honda</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+        </p>
+        <a href="#">Learn more...</a>
+      </div>
+      <div class="b6">
+        <hr />
+        <h2>Toyota</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+        </p>
+        <a href="#">Learn more...</a>
+      </div>
+    </div>
+    <div class="lmore" id="learn-more">
+      <h4>LEARN MORE</h4>
+    </div>
+  </main>
+  <footer>
+    <div class="container-flex" id="contact-us">
+      <div class="flex-iten">
+        <p><i class="fa fa-phone" aria-hidden="true"></i> 1-919-ONE-FOUR</p>
+        <p>
+          <i class="fa fa-commenting" aria-hidden="true"></i> CONTACT ONLINE
+        </p>
+      </div>
+      <div class="flex-iten">
+        <h4>&copy; 2019 Electric, Inc.</h4>
+      </div>
+      <div class="flex-iten">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"> <i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ////////////////responsive navbar///////////// -->
+  <script>
+    const resNavBar = () => {
+      let x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav"
+      }
+    }
+  </script>
+</body>
+
+</html>
